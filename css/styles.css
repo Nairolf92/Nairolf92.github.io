@@ -1,0 +1,63 @@
+@font-face{
+	font-family: 'Moonb';
+	src: url('../fonts/MoonBold.otf');
+}
+s
+@font-face{
+	font-family: 'Moonl';
+	src: url('../fonts/MoonLight.otf');
+}
+.blue-font{
+	background-color: #0F4C61;
+}
+.blue{
+    color: #0F4C61;
+}
+.white{
+    color: white;
+}
+.moonb{
+    font-family: Moonb;
+}
+.inline{
+    display: inline;
+}
+.psize{
+    font-size: 18px !important;
+}
+.bold{
+    font-weight: bold;
+}
+.nmb{
+    margin-bottom: 0 !important;
+}
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1.5em;
+    }
+    .jumbotron > h1{
+        font-size: 3em;
+    }
+    .fa-2x{
+        font-size: 1.5em;
+    }
+    #loisirs .fa-2x{
+        font-size: 2em;
+    }
+    #footer p{
+        font-size: 1.2em;
+    }
+}
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.8em;
+    }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 2em;
+    }
+}
