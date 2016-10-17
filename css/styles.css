@@ -41,7 +41,15 @@ a{
     color: white;
 }
 a:visited{
+    color: red;
+}
+a:hover{
     color: white;
+    text-decoration: underline;
+}
+a:active{
+    color: white;
+    text-decoration: underline;
 }
 
 /* Extra Small Devices, Phones */
@@ -50,10 +58,10 @@ a:visited{
         font-size: 1.2em;
     }
     .jumbotron p{
-        font-size: 15px;
+        font-size: 12px;
     }
     #footer p{
-        font-size: 0.8em;
+        font-size: 1em;
     }
 
 }
