@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: Roboto;
+}
 @font-face{
 	font-family: 'Moonb';
 	src: url('../fonts/MoonBold.otf');
 }
-s
 @font-face{
 	font-family: 'Moonl';
 	src: url('../fonts/MoonLight.otf');
@@ -23,7 +28,7 @@ s
     display: inline;
 }
 .psize{
-    font-size: 18px !important;
+    font-size: 18px;
 }
 .bold{
     font-weight: bold;
@@ -31,10 +36,21 @@ s
 .nmb{
     margin-bottom: 0 !important;
 }
+
+/* Extra Small Devices, Phones */
+@media screen and (min-width : 10px) {
+    body{
+        font-size: 1.2em;
+    }
+    .jumbotron p{
+        font-size: 15px;
+    }
+
+}
 /* sm */
 @media screen and (min-width: 768px) {
     body {
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     .jumbotron > h1{
         font-size: 3em;
@@ -48,16 +64,25 @@ s
     #footer p{
         font-size: 1.2em;
     }
+    .jumbotron p{
+        font-size: 13px;
+    }
 }
 /* md */
 @media screen and (min-width: 992px) {
     body {
-        font-size: 1.8em;
+        font-size: 1.5em;
+    }
+    .jumbotron p{
+        font-size: 14px;
     }
 }
 /* lg */
 @media screen and (min-width: 1200px) {
     body {
-        font-size: 2em;
+        font-size: 1.7em;
+    }
+    .jumbotron p{
+        font-size: 18px;
     }
 }
