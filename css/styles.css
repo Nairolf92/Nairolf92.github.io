@@ -36,6 +36,10 @@ body{
 .nmb{
     margin-bottom: 0 !important;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 
 /* Extra Small Devices, Phones */
 @media screen and (min-width : 10px) {
@@ -44,6 +48,9 @@ body{
     }
     .jumbotron p{
         font-size: 15px;
+    }
+    #footer p{
+        font-size: 0.8em;
     }
 
 }
